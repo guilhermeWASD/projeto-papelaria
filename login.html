@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto POLARIS | Login</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <form action="verificar.php" method="post">
     <label>Usuário:</label><br>
-    <input type="email" name="txtusuario" placeholder="nome@site.com"><br>
+    <input type="email" name="txtusuario" placeholder="nome@site.com"><br><br>
     <label>Senha:</label><br>
-    <input type="password" name="txtsenha" maxlength="8"><br>
+    <input type="password" name="txtsenha" maxlength="8"><br><br>
     <input type="submit" value="Enviar">
     <input type="button" value="Cancelar">
-    <br>
-    <a href="cadastrar.html">Cadastre-se</a>
+    <br><br>
+    <ul>
+      <li>
+        <a href="cadastro.html" class="opcao">Cadastre-se</a>
+      </li>
+      
+      <li>
+        <a href="index.html" class="opcao">Retornar</a>
+      </li> 
+    </ul>
 </form>  
 </body>
 </html>

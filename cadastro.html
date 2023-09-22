@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto POLARIS | Cadastre-se</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="cadastarusuario.php" method="post">
+    <form action="cadastrarusuario.php" method="post">
         <label>Nome:</label><br>
-        <input type="text" name="txtnome"><br>
+        <input type="text" name="txtnome"><br><br>
         <label>Endereço:</label><br>
-        <input type="text" name="txtendereco"><br>
+        <input type="text" name="txtendereco"><br><br>
         <label>CEP:</label><br>
-        <input type="text" name="txtcep"><br>
+        <input type="text" name="txtcep"><br><br>
         <label>Telefone:</label><br>
-        <input type="tel" name="txttelefone"><br>
-        <label>email:</label><br>
-        <input type="email" name="txtemail" placeholder="nome@site.com"><br>
+        <input type="tel" name="telefone"><br><br>
+        <label>Email:</label><br>
+        <input type="email" name="txtemail" placeholder="exemplo@email.com"><br><br>
         <label>Senha:</label><br>
-        <input type="password" name="txtsenha"><br>
+        <input type="password" name="txtsenha"><br><br>
         <input type="submit" value="Enviar">
         <input type="button" value="Cancelar">
+        <br><br>
+        <ul>
+            <li>
+                <a href="index.html" class="opcao">Página Inicial</a><br>
+            </li>
+
+            <li>
+                <a href="login.html" class="opcao">Login</a>
+            </li>
+        </ul>
     </form>
 </body>
 </html>

@@ -1,5 +1,19 @@
 <?php
-$conexao = mysqli_connect("localhost","root","","projeto",3306);
-mysqli_set_charset($conexao,"utf8");
 
+try {
+$usuario = 'root';
+$senha = '';
+$database = 'papelaria';
+$host = 'localhost';
+$port = '3306';
+
+$conexao = mysqli_connect($host,$usuario,$senha,$database, $port);
+mysqli_set_charset($conexao,"utf8");
+}
+catch(Exception $e){
+    echo $e->getMessage();
+}
+finally{
+    //mysqli_close($conexao);
+}
 ?>

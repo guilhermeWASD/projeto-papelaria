@@ -2,3 +2,17 @@
     font-family: 'Lilita One', cursive;
     font-size:x-large;
 }
+
+#subtitulo{
+    font-family: 'Lilita One', cursive;
+    font-size:230%;
+}
+
+.opcao{
+    text-decoration: none;
+    color: black;   
+}
+
+.opcao:hover{
+    text-decoration: underline;
+}
