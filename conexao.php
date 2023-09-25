@@ -1,13 +1,13 @@
 <?php
 
-try {
+try{
 $usuario = 'root';
-$senha = '';
+$senha = 'mansql2';
 $database = 'papelaria';
 $host = 'localhost';
-$port = '3306';
 
-$conexao = mysqli_connect($host,$usuario,$senha,$database, $port);
+
+$conexao = mysqli_connect($host,$usuario,$senha,$database);
 mysqli_set_charset($conexao,"utf8");
 }
 catch(Exception $e){

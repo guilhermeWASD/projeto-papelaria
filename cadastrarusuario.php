@@ -14,10 +14,8 @@ $senha = $_POST["txtsenha"];
 $sqlquery = "INSERT INTO cliente (nome, endereco, cep, telefone, email, senha) 
 VALUES ('$nome', '$endereco', '$cep','$tel','$email','$senha');";
 
-echo $sqlquery;
-
 mysqli_query($conexao, $sqlquery);
 
-echo "cadastrado com sucesso";
-echo "<br><a href='index.html'>Voltar</a>";
+echo "Usuário cadastrado com sucesso";
+echo "<br><a href='cadastro.php'>Voltar</a>";
 ?>
